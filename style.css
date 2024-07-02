@@ -1,0 +1,42 @@
+    body {
+        background-color: white ; 
+        font-family: Helvetica; 
+        };
+    p { 
+        margin-left: 3em
+    };
+    h1    {color: red; text-align: center ; font-size: 3em;}
+    h1,p{ container: 56px};
+    img {   align:center};
+
+    h2 {
+        margin-top: 5em;
+        display: flex;
+        font-size: 1.5em;       
+    }
+    
+    .center {
+        display: auto;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 5%; */
+        width: 10%;
+    }
+
+    div{
+        width: 30%;
+        display: block;
+    }
+
+    
+    h2 {
+        margin-top: 5em;
+        display: flex;
+        font-size: 1.5em;       
+    }
+
+    .intro{
+        font-weight: 200;
+    }
+
+

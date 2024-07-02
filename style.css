@@ -5,7 +5,10 @@
     p { 
         margin-left: 3em
     };
-    h1    {color: red; text-align: center ; font-size: 3em;}
+    h1    {color: red; 
+           text-align: center ; 
+           font-size: 3em;}
+    
     h1,p{ container: 56px};
     img {   align:center};
 
@@ -23,9 +26,9 @@
         width: 10%;
     }
 
-    div{
+    #intro{
         width: 30%;
-        display: block;
+        display: flex;
     }
 
     
@@ -38,5 +41,29 @@
     .intro{
         font-weight: 200;
     }
+
+    .lsm{
+        display: inline;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        
+    }
+
+    #shirt{
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100% ;
+    }
+
+    #price{
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+        text-align: center;
+    }
+
 
 

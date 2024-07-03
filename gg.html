@@ -6,19 +6,44 @@
 </head>
 
 <body>
-    <img src="/img/logo.svg" alt="logo" class="center">
+    <div>
+    
+    <button onclick="myFunc()">
+        darkmode
+    </button>
 
-<h1>General Gear</h1>
+    <script>
+        let result = document.getElementById("GFG");
+ 
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+ 
+        function myFunc() {
+            changeColor('black');
+            result.innerHTML = "Background Color changed";
+        }        
+    </script>
+
+<!-- LOGO -->
+<div id="logo">
+<img src="/img/logo.svg" alt="logo" class="center">
+<p id="header">General Gear</p>
+</div>
+</div>
 
 
-<!-- text -->
+<!-- TEXT -->
 <div id="intro">
 <h2 class="intro">
-    Welcome to general gear, good quality sports wear for everyone. 
-    Not to expensive, gotta start somewhere. This brand is dedicated to my grand-father, who taught me everything. 
-    we prioritise those in need, with a dream and ambition. if you are interested in making the world a better place, welcome.
+    We promote peace.
+    <br>
+    Welcome to general gear, good quality sports wear for everyone.
+    Not too expensive, gotta start somewhere. This brand is dedicated to my grand-father, who taught me everything. 
+    We prioritise those in need, with a dream and ambition. If you are interested in making the world a better place, welcome.
 <h2>
-    </div>
+</div>
+
 
 <!-- LSM COLLAB -->
 <!-- <img src="/img/lsm.jpg" alt="logo" class="lsm"> -->
@@ -26,7 +51,15 @@
 <div id="shirt">
 <img src="/img/t-shirt.png" alt="" id="sss">
 <p id="price">30fr/ 15fr si tu es ô études</p>
+<!-- <a href="mailto:nikita.ivanovch1@gmail.com?subject:Order">now</a></p> -->
+<p id="price">limited to 100 t-shirts, for <a href="mailto:nikita.ivanovch1@gmail.com?subject=Order">now</a></p>
+
 </div>
+
+<div id="copywrite">
+<p>@Nikita Antonovich Ivanov 2024</p>
+</div>
+
 
 </body>
 

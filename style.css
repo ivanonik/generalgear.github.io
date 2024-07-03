@@ -15,7 +15,8 @@
     h2 {
         margin-top: 5em;
         display: flex;
-        font-size: 1.5em;       
+        font-size: 1.5em;  
+        text-align: justify;     
     }
     
     .center {
@@ -40,6 +41,7 @@
 
     .intro{
         font-weight: 200;
+        margin-left: 5%;
     }
 
     .lsm{
@@ -60,9 +62,32 @@
     #price{
         margin: auto;
         width: 50%;
-        border: 3px solid green;
+        /* border: 3px solid green; */
         padding: 10px;
         text-align: center;
+    }
+
+    #copywrite{
+        display: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        /* width: 50%; */
+        
+    }
+
+    #logo{
+        text-align: right;
+        font-weight: 3em;
+    }
+
+    /* header */
+    #header{
+        font-size:60%;
+    }
+
+    #darkmode{
+        scale: 10%;
     }
 
 

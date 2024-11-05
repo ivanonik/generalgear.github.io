@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../emp"
+		},
+		{
+			"path": "../../../Downloads/p5.csg-main/src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "emp"
+	}
+}
